@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neandertaler-Evolution: KI trifft Urgeschichte</title>
+    <link rel="stylesheet" href="presentation-v2.css">
+</head>
+<body>
+    <div class="presentation">
+        <!-- Progress -->
+        <div class="progress-bar"><div class="progress"></div></div>
+        
+        <!-- Navigation -->
+        <nav class="controls">
+            <button onclick="prevSlide()">◀</button>
+            <span class="counter"><span id="current">1</span> / 9</span>
+            <button onclick="nextSlide()">▶</button>
+        </nav>
+
+        <!-- Slides -->
+        <div class="slides">
+            
+            <!-- 1: Titel -->
+            <section class="slide active">
+                <div class="hero">
+                    <h1>🦴 Neandertaler-Evolution</h1>
+                    <p class="subtitle">Wenn künstliche Intelligenz die Eiszeit simuliert</p>
+                    <div class="meta">
+                        <span>Q1 Seminarfacharbeit</span>
+                        <span>•</span>
+                        <span>Mai 2026</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2: Die Frage -->
+            <section class="slide">
+                <h2>Die zentrale Frage</h2>
+                <div class="big-quote">
+                    <p>"Warum starben die Neandertaler aus – nach 400.000 Jahren Erfolg?"</p>
+                </div>
+                <div class="split">
+                    <div>
+                        <h3>🌍 Das Rätsel</h3>
+                        <p>Sie überlebten Eiszeiten, jagten Mammuts und beherrschten das Feuer</p>
+                        <p>Doch vor 40.000 Jahren verschwanden sie innerhalb weniger tausend Jahre</p>
+                        <p><strong>Mögliche Ursachen:</strong> Klimawandel, Konkurrenz mit Homo Sapiens, zu kleine Populationen</p>
+                    </div>
+                    <div>
+                        <h3>💡 Mein Ansatz</h3>
+                        <p>KI-gestützte Simulation ihrer Lebenswelt</p>
+                        <p>Neuronale Netze als "Gehirne" + genetische Evolution</p>
+                        <p><strong>Ziel:</strong> Verstehen, welche Faktoren zum Überleben führen</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3: Das Projekt -->
+            <section class="slide">
+                <h2>Der Simulator im Überblick</h2>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <div class="icon">🗺️</div>
+                        <h3>Eiszeit-Welt</h3>
+                        <p>200×150 Zellen große prozedural generierte Landschaft mit Ressourcen</p>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">🧠</div>
+                        <h3>KI-Gehirne</h3>
+                        <p>85 Eingänge → 3 versteckte Layer → 28 Aktionen pro Agent</p>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">🧬</div>
+                        <h3>Evolution</h3>
+                        <p>Genetischer Algorithmus mit Elite Selection & Mutation</p>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">⏱️</div>
+                        <h3>Dynamik</h3>
+                        <p>Tag/Nacht, 4 Jahreszeiten, Hunger, Kälte, Erschöpfung</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4: Technische Details -->
+            <section class="slide">
+                <h2>Wie funktioniert's technisch?</h2>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <div class="tech-icon">🧠</div>
+                        <strong>Neuronales Netzwerk</strong>
+                        <div class="tech-detail">
+                            <p><span class="highlight">85 Eingänge:</span> Umgebung, Hunger, Temperatur, sichtbare Objekte</p>
+                            <p><span class="highlight">3 Hidden Layers:</span> 64 → 48 → 32 Neuronen (ReLU-Aktivierung)</p>
+                            <p><span class="highlight">28 Ausgänge:</span> Bewegen, Jagen, Sammeln, Werkzeuge nutzen, Feuer machen, Ausruhen</p>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">🧬</div>
+                        <strong>Genetischer Algorithmus</strong>
+                        <div class="tech-detail">
+                            <p><span class="highlight">Fitness-Funktion:</span> Überlebenszeit × (1 + Nahrung + Werkzeugnutzung)</p>
+                            <p><span class="highlight">Elite Selection:</span> Beste 20% werden zur nächsten Generation</p>
+                            <p><span class="highlight">Mutation:</span> 15% Zufallsänderungen für genetische Vielfalt</p>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">🌍</div>
+                        <strong>Umwelt-Simulation</strong>
+                        <div class="tech-detail">
+                            <p><span class="highlight">Welt-Generation:</span> Zellulärer Automat (200×150 Zellen)</p>
+                            <p><span class="highlight">Ressourcen:</span> Beeren, Fleisch, Holz, Stein, Wasser – je nach Jahreszeit</p>
+                            <p><span class="highlight">Gefahren:</span> Extreme Kälte im Winter (-15°C), Raubtiere, Erschöpfung</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5: Erkenntnisse -->
+            <section class="slide">
+                <h2>Was zeigt die Simulation?</h2>
+                <div class="insights">
+                    <div class="insight">
+                        <div class="insight-number">1</div>
+                        <div>
+                            <h3>Kooperation schlägt Solo</h3>
+                            <p>Agents die kooperieren (gemeinsame Jagd, Ressourcenteilung) überleben <strong>dreimal länger</strong> als Einzelgänger</p>
+                        </div>
+                    </div>
+                    <div class="insight">
+                        <div class="insight-number">2</div>
+                        <div>
+                            <h3>Feuer ist überlebenswichtig</h3>
+                            <p>Ohne Feuer im Winter: <strong>80% Mortalität</strong> – mit Feuer: nur 20%. Wärme rettet Leben.</p>
+                        </div>
+                    </div>
+                    <div class="insight">
+                        <div class="insight-number">3</div>
+                        <div>
+                            <h3>Population matters</h3>
+                            <p>Unter 10 Individuen kollabiert die genetische Vielfalt – Inzucht führt zum <strong>garantierten Aussterben</strong></p>
+                        </div>
+                    </div>
+                    <div class="insight">
+                        <div class="insight-number">4</div>
+                        <div>
+                            <h3>Evolution braucht Zeit</h3>
+                            <p>Bei schnellen Klimaänderungen (< 10 Generationen) sterben <strong>90% der Population</strong> – Anpassung ist zu langsam</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6: Warum wichtig? -->
+            <section class="slide">
+                <h2>Warum ist das relevant?</h2>
+                <div class="relevance">
+                    <div class="rel-card">
+                        <h3>📚 Bildung & Wissenschaft</h3>
+                        <p><strong>Einsatz:</strong> Interaktives Museum-Display, Schulunterricht (Geschichte + Informatik)</p>
+                        <p><strong>Mehrwert:</strong> Evolution wird erlebbar – von abstrakten Konzepten zu visuellen Simulationen</p>
+                    </div>
+                    <div class="rel-card">
+                        <h3>🌡️ Klimawandel heute</h3>
+                        <p><strong>Parallele:</strong> Neandertaler konnten sich nicht schnell genug anpassen – wir stehen vor der gleichen Herausforderung</p>
+                        <p><strong>Warnung:</strong> Evolution ist zu langsam. Wir müssen <em>aktiv</em> handeln, nicht nur adaptieren.</p>
+                    </div>
+                    <div class="rel-card">
+                        <h3>🤖 KI-Entwicklung</h3>
+                        <p><strong>Methodik:</strong> Evolutionäre Algorithmen trainieren adaptive KI-Systeme ohne menschliches Eingreifen</p>
+                        <p><strong>Praxis:</strong> Robotik, selbstfahrende Autos, NPCs in Games, Optimierungsprobleme</p>
+                    </div>
+                    <div class="rel-card">
+                        <h3>🧬 Artenschutz</h3>
+                        <p><strong>Lesson learned:</strong> Kleine Populationen = hohes Aussterberisiko durch mangelnde genetische Diversität</p>
+                        <p><strong>Anwendung:</strong> Bedrohte Arten (Pandas, Tiger) brauchen Mindestpopulationen + Genbanken</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 7: Live Demo -->
+            <section class="slide">
+                <h2>Live-Demonstration</h2>
+                <div class="demo-box">
+                    <div class="demo-preview">
+                        <div class="demo-icon">🦴</div>
+                        <h3>Neandertaler Evolution Simulator</h3>
+                        <p>Erlebe Evolution in Echtzeit</p>
+                        <button class="btn-primary" onclick="window.open('../index.html', '_blank')">
+                            ▶️ Simulation starten
+                        </button>
+                    </div>
+                    <div class="demo-features">
+                        <h4>Beobachte:</h4>
+                        <ul>
+                            <li>✓ Wie Agents lernen, Nahrung zu finden</li>
+                            <li>✓ Entwicklung von Werkzeug-Nutzung</li>
+                            <li>✓ Gruppenbildung und soziale Interaktion</li>
+                            <li>✓ Anpassung an Jahreszeiten</li>
+                            <li>✓ Vererbung erfolgreicher Strategien</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 8: Quellen -->
+            <section class="slide">
+                <h2>Wissenschaftliche Grundlagen</h2>
+                <div class="sources">
+                    <div class="source-group">
+                        <h4>Neandertaler-Forschung</h4>
+                        <p>Pääbo, S. (2014). <em>Neanderthal Man</em>. Basic Books.</p>
+                        <p>Green, R.E. et al. (2010). Science, 328(5979), 710-722.</p>
+                    </div>
+                    <div class="source-group">
+                        <h4>Künstliche Intelligenz</h4>
+                        <p>Stanley & Miikkulainen (2002). <em>NEAT Algorithm</em>. EC, 10(2).</p>
+                        <p>Floreano & Mattiussi (2008). <em>Bio-Inspired AI</em>. MIT Press.</p>
+                    </div>
+                    <div class="source-group">
+                        <h4>Klimaforschung</h4>
+                        <p>Lisiecki & Raymo (2005). Paleoceanography, 20(1).</p>
+                        <p>IPCC (2021). <em>Climate Change Report</em>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 9: Fazit -->
+            <section class="slide">
+                <h2>Fazit</h2>
+                <div class="conclusion">
+                    <div class="conclusion-main">
+                        <p class="large-text">Diese Arbeit verbindet drei Welten:</p>
+                        <div class="worlds">
+                            <div class="world">🏛️<br><strong>Vergangenheit</strong><br>400.000 Jahre Evolution</div>
+                            <div class="world">🤖<br><strong>Gegenwart</strong><br>Moderne KI-Technologie</div>
+                            <div class="world">🌍<br><strong>Zukunft</strong><br>Lehren für Klimakrise</div>
+                        </div>
+                    </div>
+                    <div class="key-takeaway">
+                        <p><strong>Kernaussage:</strong> Computer-Simulationen helfen uns zu verstehen, wie Spezies auf extreme Bedingungen reagieren – und warum Anpassungsfähigkeit überlebenswichtig ist.</p>
+                    </div>
+                    <div class="thanks">
+                        <h3>Vielen Dank!</h3>
+                        <p>Fragen? 💬</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Keyboard hints -->
+        <div class="hint">Tastatur: ← → | Leertaste | Esc</div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const totalSlides = 9;
+        const slides = document.querySelectorAll('.slide');
+        const progress = document.querySelector('.progress');
+        const counter = document.getElementById('current');
+
+        function showSlide(n) {
+            slides.forEach(s => s.classList.remove('active'));
+            currentSlide = Math.max(0, Math.min(n, totalSlides - 1));
+            slides[currentSlide].classList.add('active');
+            progress.style.width = ((currentSlide + 1) / totalSlides * 100) + '%';
+            counter.textContent = currentSlide + 1;
+        }
+
+        function nextSlide() { showSlide(currentSlide + 1); }
+        function prevSlide() { showSlide(currentSlide - 1); }
+
+        // Keyboard
+        document.addEventListener('keydown', e => {
+            if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+            if (e.key === 'Escape') showSlide(0);
+            if (e.key === 'f' || e.key === 'F') document.documentElement.requestFullscreen();
+        });
+
+        // Touch
+        let touchStart = 0;
+        document.addEventListener('touchstart', e => touchStart = e.touches[0].clientX);
+        document.addEventListener('touchend', e => {
+            const diff = touchStart - e.changedTouches[0].clientX;
+            if (Math.abs(diff) > 50) diff > 0 ? nextSlide() : prevSlide();
+        });
+    </script>
+</body>
+</html>
